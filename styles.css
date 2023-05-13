@@ -38,26 +38,26 @@ header{
 .navbar{
      display: flex;
      justify-content: space-evenly;
-     gap: 5rem;
+     gap: 1rem;
 }
 .navbar li{
     position: relative;
     align-items: center;
     align-content: center;
+    padding: 0 1rem;
 }
 .navbar .ab{
     color: black;
     font-weight: bold;
-    font-size: 2rem;
-    padding: 20px,20px;
+    font-size: 20px;
+    
 }
 .navbar .h-btn{
     border: solid 5px rgb(255, 0, 55) ;
     color: black;
     font-weight:bold;
     border-radius: 100px;
-    padding: .1rem 1.2rem;
-    font-size: 1.7rem;
+    font-size: 19px;
 }
 /*----------main-----*/
 #main-all{
@@ -75,35 +75,35 @@ header{
 width: 50%;
 }
 .emahe-uno{
-    height: 40rem;
-    width: 40rem;
+    height: 25rem;
+    width: 25rem;
     border: solid 10px #fff;
     border-radius: 50%;
     object-fit: cover;
     position: relative;
     top: 5rem;
-    left: 3rem;
+    left: 2rem;
 }
 .emahe-dos {
-    height: 20rem;
-    width: 20rem;
+    height: 11rem;
+    width: 11rem;
     object-fit: cover;
     position: relative;
-    border: solid 10px #fff;
+    border: solid 7px #fff;
     border-radius: 50%;
-    left: 36rem;
-    bottom: 35rem;
+    left: 26rem;
+    bottom: 16rem;
     
 }
 .emahe-tress{
-    height: 20rem;
-    width: 20rem;
+    height: 11rem;
+    width: 11rem;
     object-fit: cover;
     position: relative;
-    border: solid 10px #fff;
+    border: solid 7px #fff;
     border-radius: 50%;
-    left: 33rem;
-    bottom: 35rem;
+    left: 21rem;
+    bottom: 16rem;
 }
 /*-------main2----*/
 .main-two{
@@ -117,7 +117,7 @@ width: 50%;
 }
 h1{
     
-    font-size: 7rem;
+    font-size: 4rem;
     text-shadow: #fff 5px 5px 3px;
     
 }
@@ -129,6 +129,7 @@ p{
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-align: center;
+    padding-top: 2rem;
 }
 
 
