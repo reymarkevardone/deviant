@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'josefin san' ,sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3.5rem;
+    grid-template-rows: auto 1fr auto;
+
+}
+:root{
+
+}
+body{
+    background: linear-gradient(204deg, rgba(253, 187, 45, 1) 54%, rgba(34, 193, 195, 1) 67%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    padding: 25px 15%;
+    transition-duration: .3s;
+}
+.navbar{
+     display: flex;
+     justify-content: space-evenly;
+     gap: 5rem;
+}
+.navbar li{
+    position: relative;
+    align-items: center;
+    align-content: center;
+}
+.navbar .ab{
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 20px,20px;
+}
+.navbar .h-btn{
+    border: solid 5px rgb(255, 0, 55) ;
+    color: black;
+    font-weight:bold;
+    border-radius: 100px;
+    padding: .1rem 1.2rem;
+    font-size: 1.7rem;
+}
+/*----------main-----*/
+#main-all{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 2px;
+
+}
+/*---------main1------*/
+.main-one{
+    height: auto;
+width: 50%;
+}
+.emahe-uno{
+    height: 40rem;
+    width: 40rem;
+    border: solid 10px #fff;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    top: 5rem;
+    left: 3rem;
+}
+.emahe-dos {
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    position: relative;
+    border: solid 10px #fff;
+    border-radius: 50%;
+    left: 36rem;
+    bottom: 35rem;
+    
+}
+.emahe-tress{
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    position: relative;
+    border: solid 10px #fff;
+    border-radius: 50%;
+    left: 33rem;
+    bottom: 35rem;
+}
+/*-------main2----*/
+.main-two{
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+h1{
+    
+    font-size: 7rem;
+    text-shadow: #fff 5px 5px 3px;
+    
+}
+.h-two{
+    color: red;
+}
+p{
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+
