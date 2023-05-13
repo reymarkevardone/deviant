@@ -32,12 +32,15 @@ header{
     z-index: 1000;
     display: flex;
     justify-content: center;
+    
     padding: 25px 15%;
     transition-duration: .3s;
 }
-.navbar{
+.navbar {
      display: flex;
      justify-content: space-evenly;
+     align-items: center;
+
      gap: 1rem;
 }
 .navbar li{
@@ -58,6 +61,7 @@ header{
     font-weight:bold;
     border-radius: 100px;
     font-size: 19px;
+    padding: 0 20px;
 }
 /*----------main-----*/
 #main-all{
