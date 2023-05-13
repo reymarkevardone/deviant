@@ -65,14 +65,19 @@ header{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    align-items: stretch;
-    gap: 2px;
+    align-items: center;
+    gap: 5rem;
 
 }
 /*---------main1------*/
 .main-one{
     height: auto;
-width: 50%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
 }
 .emahe-uno{
     height: 25rem;
@@ -81,8 +86,8 @@ width: 50%;
     border-radius: 50%;
     object-fit: cover;
     position: relative;
-    top: 5rem;
-    left: 2rem;
+    top: 14rem;
+    left: -1rem;
 }
 .emahe-dos {
     height: 11rem;
@@ -91,8 +96,8 @@ width: 50%;
     position: relative;
     border: solid 7px #fff;
     border-radius: 50%;
-    left: 26rem;
-    bottom: 16rem;
+    left: 13rem;
+    bottom: 8rem;
     
 }
 .emahe-tress{
@@ -102,8 +107,8 @@ width: 50%;
     position: relative;
     border: solid 7px #fff;
     border-radius: 50%;
-    left: 21rem;
-    bottom: 16rem;
+    left: 9rem;
+    bottom: 9rem;
 }
 /*-------main2----*/
 .main-two{
@@ -114,11 +119,13 @@ width: 50%;
     justify-content: center;
     align-items: center;
     align-content: center;
+    padding-top: 6rem;
 }
 h1{
     
     font-size: 4rem;
     text-shadow: #fff 5px 5px 3px;
+ 
     
 }
 .h-two{
